@@ -26,7 +26,7 @@ jobs:
           echo ${{ steps.date.outputs.today }}
       - name: Publish
         run: |
-          echo '{"name":"tnxg-oss","version":"${{ steps.date.outputs.today }}","author":"TNXG","license":"TSO-BY"}' > package.json
+          echo '{"name":"tnxg-resource","version":"${{ steps.date.outputs.today }}","author":"TNXG","license":"TSO-BY"}' > package.json
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
