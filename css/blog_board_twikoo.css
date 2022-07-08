@@ -1,3 +1,54 @@
+/* 字体 */
+@font-face {
+    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/HarmonyOS_Sans.ttf");
+    font-family: "HarmonyOS_Sans";
+}
+
+@font-face {
+    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/ysbth.ttf");
+    font-family: "ysbth";
+}
+
+@font-face {
+    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/CtrlAstr.ttf");
+    font-family: "CtrlAstr";
+}
+
+@font-face {
+    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/Gsenochian.ttf");
+    font-family: "Gsenochian";
+}
+
+@font-face {
+    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/Tevyat.ttf");
+    font-family: "Tevyat";
+}
+
+@font-face {
+    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/JetBrainsMono.ttf");
+    font-family: "JetBrainsMono";
+}
+
+.CtrlAstr {
+    font-family: "CtrlAstr";
+}
+
+.ysbth {
+    font-family: "ysbth";
+}
+
+.Gsenochian {
+    font-family: "Gsenochian";
+}
+
+.Tevyat {
+    font-family: "Tevyat";
+}
+
+.JetBrainsMono {
+    font-family: "JetBrainsMono";
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,46 +64,58 @@ button {
 }
 
 body {
-        font-family: 'ZCOOL KuaiLe', cursive;
-        display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-           -webkit-box-align: center;
-           -ms-flex-align: center;
-           align-items: center;
-           -webkit-box-pack: center;
-           -ms-flex-pack: center;
-             justify-content: center;
+    font-family: "HarmonyOS_Sans";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 
-        }
+}
+
 .cntr {
-            display: table;
-            width: 100%;
-            height: 100%;
-        }
+    display: table;
+    width: 100%;
+    height: 100%;
+}
 
 .cntr .cntr-innr {
-            display: table-cell;
-            text-align: center;
-            vertical-align: middle;
-        }    
-        
-        
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 h1 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 p {
-            margin-top: 10px;
-        }
-       
+    margin-top: 10px;
+}
+
 i {
-            margin-top: 10px;
-            color:#F08080;
-        }
-        
-        
+    margin-top: 10px;
+    color: #F08080;
+}
+
+a:link a:visited {
+    color: #66ccff;
+    text-decoration: none
+}
+
+
+a:hover {
+    color: #ffbb00;
+    text-decoration: none
+}
+
+
 .page {
     min-height: 100vh;
     width: 95%;
@@ -67,6 +130,7 @@ i {
     align-items: center;
     font-weight: lighter;
 }
+
 .bg {
     position: fixed;
     top: 0;
@@ -147,7 +211,7 @@ h1.title {
     cursor: pointer;
     line-height: 1;
     transition: all 0.3s;
-    background: -webkit-gradient( linear, left top, right top, from(#9c51ff), to(#816bff));
+    background: -webkit-gradient(linear, left top, right top, from(#9c51ff), to(#816bff));
     background: -webkit-linear-gradient(90deg, #9c51ff, #816bff);
     background: linear-gradient(90deg, #9c51ff, #816bff);
 }
@@ -177,6 +241,7 @@ h1.title {
     flex: 1;
     padding: 12px 20px;
 }
+
 /* 黑幕 */
 .heimus,
 .heimus rt {
@@ -219,60 +284,4 @@ body:not(.heimus_toggle_on) .new:hover .heimus.off,
 body:not(.heimus_toggle_on) .heimus:hover .new {
     transition: color .13s linear;
     color: #FCC
-}
-
-/* 字体 */
-@font-face {
-    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/HarmonyOS_Sans.ttf");
-    font-family: "HarmonyOS_Sans";
-}
-
-@font-face {
-    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/ysbth.ttf");
-    font-family: "ysbth";
-}
-
-@font-face {
-    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/CtrlAstr.ttf"); 
-    font-family: "CtrlAstr";
-}
-
-@font-face {
-    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/Gsenochian.ttf");
-    font-family: "Gsenochian";
-}
-
-@font-face {
-    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/Tevyat.ttf");
-    font-family: "Tevyat";
-}
-
-@font-face {
-    src: url("https://npm.elemecdn.com/tnxg-resource@latest/typeface/JetBrainsMono.ttf");
-    font-family: "JetBrainsMono";
-}
-
-
-body {
-    font-family: "HarmonyOS_Sans";
-}
-
-.CtrlAstr {
-    font-family: "CtrlAstr";
-}
-
-.ysbth {
-    font-family: "ysbth";
-}
-
-.Gsenochian {
-    font-family: "Gsenochian";
-}
-
-.Tevyat {
-    font-family: "Tevyat";
-}
-
-.JetBrainsMono {
-    font-family: "JetBrainsMono";
 }
