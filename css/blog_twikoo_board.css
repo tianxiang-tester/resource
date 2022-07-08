@@ -104,7 +104,12 @@ i {
     color: #F08080;
 }
 
-a:link a:visited {
+a:link {
+    color: #66ccff;
+    text-decoration: none
+}
+
+a:visited {
     color: #66ccff;
     text-decoration: none
 }
